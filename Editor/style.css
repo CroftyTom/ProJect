@@ -9,10 +9,19 @@ textarea {
   overflow: scroll;
   margin: auto;
   display: inline-block;
-  background: #F4F4F9;
+  background: #ffffff;
   outline: none;
   font-family: Courier, sans-serif;
   font-size: 14px;
+
+}
+
+body {
+  color: rgb(45, 224, 9);
+}
+
+h1 {
+  color: rgb(45, 224, 9);
 }
 
 iframe {
