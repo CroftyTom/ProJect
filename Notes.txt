@@ -17,7 +17,7 @@ OS support for Windows, Mac, Linux, Unix, Ios?, Android?
 FTP upload - upload files directly
 WebDAV -  WebDAV (Web Distributed Authoring and Versioning)
 Server side scripting
-Shared editing ? 
+Shared editing ? (repl.it - does it save direct to git, or is it manual download/upload?)
 Spell checker
 Templates 
 Support for CSS2, Frames, Java, JavaScript, XSLT, XHTML, MathML, XForms, RSS, Atom, XPath
