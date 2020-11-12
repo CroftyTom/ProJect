@@ -1,0 +1,23 @@
+//YO josh, get microsoft teams
+// (R) DW Doin That
+
+//add me bro it5_j05h@outlook.com
+//Not letting me add u on my school teams, will make an account for this specifically
+// NO NEED FOR COMMENT// ITS A TXT FILE
+
+
+OS support for Windows, Mac, Linux, Unix, Ios?, Android?
+
+FTP upload - upload files directly
+WebDAV -  WebDAV (Web Distributed Authoring and Versioning)
+Server side scripting
+Shared editing ? 
+Spell checker
+Templates 
+Support for CSS2, Frames, Java, JavaScript, XSLT, XHTML, MathML, XForms, RSS, Atom, XPath
+
+================================================================
+HTMLTIDY - https://en.wikipedia.org/wiki/HTML_Tidy
+CSSTIDY - https://en.wikipedia.org/wiki/CSSTidy
+VALIDATOR - https://en.wikipedia.org/wiki/CSS_HTML_Validator
+================================================================
