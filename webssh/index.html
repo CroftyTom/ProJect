@@ -1,6 +1,11 @@
 <!doctype html>
 <html>
-<head>
+<img src="../NAVBAR.gif" alt="navbar" style="width:100%;" id = navbarimg>
+	</div>
+	<div id="navbar">
+      <p> <a href="../index.html">Home</a> <a href="../news.html">Portfolio</a> <a href="../Contact.html">Contact</a> </p>
+      <script src="navscript.js"></script>
+</div><head>
 	<meta charset="utf-8">
 	<title>Web-SSH-Portal</title>
 	<link rel='icon' href='favicon.ico' type='image/x-icon'/ >
@@ -23,6 +28,10 @@
 	<link rel="stylesheet" href="css/xterm.css" async/>
 	<link rel="stylesheet" href="css/main.css" async/>
 	<link rel="stylesheet" href="css/fonts.css" async/>
+	<link rel="stylesheet" href="../css/Style1.css" async>
+		<link rel="stylesheet" href="../css/Style2.css" async>
+		<link rel="stylesheet" href="../css/Style3.css" async>
+	
 	<script type="text/javascript" src="js/combinedLibs.comb.js" async></script>
 	<script type="text/javascript">
 		window.onload = function() {
@@ -271,12 +280,12 @@
 		}
 	</script>
 </head>
+		
 <body>
-	<div id="terminal"></div>
-	<div id="settingsNav" class="sidenav" style="width:0;">
-		<a href="javascript:;" class="closebtn" onclick="toggleNav(0)">&times;</a>
-		<span class="title large">Terminal Options</span>
-		<hr>
+<div id="settingsNav" class="sidenav" style="width:0;">
+	<a href="javascript:;" class="closebtn" onclick="toggleNav(0)">&times;</a>
+	<span class="title large">Terminal Options</span>
+	<hr>
 		<span class="title" style="padding-top:20px">Font Size</span>
 		<a class="leftarrow" href="javascript:;" onclick="settings.modFontSize(-1)"><--</a>
 		<span class="middle" id="currentFontSize">16px</span>
@@ -328,35 +337,34 @@
 		</span>
 	</div>
 	<span id="gear" class="gear" style="visibility:visible;" onclick="toggleNav(250)">&#9881</span>
-<div id="login_cred" class="modal">
-		<div class="modal-content">
-			<div class="modal-header">
-				<h2><span class="icon-lock"></span> Web-SSH-Portal Login</h2>
-			</div>
-			<div class="modal-body">
-				<table style="width: 100%">
-					<tr>
-						<td><span class="icon-address-book"></span> IP Address:</td>
-						<td><input type="text" id="ipaddress" placeholder="sshy.us(:22)" style="width: 90%" onblur="validate(this.id, this.value)" autofocus></td>
-					</tr>
-					<tr>
-						<td><span class="icon-user-circle-o"></span> Username:</td>
-						<td><input type="text" id="username" placeholder="username" style="width: 90%" onblur="validate(this.id, this.value)"></td>
-					</tr>
-					<tr>
-						<td><span class="icon-eye"></span> Password:</td>
-						<td><input type="password" id="password" style="width: 90%" onblur="validate(this.id, this.value)"></td>
-					</tr>
-				</table>
-				<i id="failure" class="failure"></i>
-				<input type="button" id="connect" class="button" value="Connect" onclick="startSSHy()">
-			</div>
+<div class="modal">
+  <div class="modal-content">
+			
+			
 		</div>
 		<div id="load-container" class="load-container">
 			<svg id="load" x="0px" y="0px" viewBox="0 0 150 150">
 		  		<circle id="loading-inner" cx="75" cy="75" r="60"></circle>
 			</svg>
 		</div>
-	</div>
+</div>
+			<div class="modal-body">
+				<table style="width: 100%">
+				  <tr>
+						
+						<td><input type="text" id="ipaddress" placeholder="IP Address" style="width: 50%" onblur="validate(this.id, this.value)" autofocus></td>
+					</tr>
+					<tr>
+						
+						<td><input type="text" id="username" placeholder="Username" style="width: 50%" onblur="validate(this.id, this.value)"></td>
+					</tr>
+					<tr>
+				
+						<td><input type="password" id="password" placeholder="Password" style="width: 50%" onblur="validate(this.id, this.value)"></td>
+					</tr>
+				</table>
+				<i id="failure" class="failure"></i>
+			  <input type="button" id="connect" class="button" value="Connect" onclick="startSSHy()">
+			</div>
 </body>
 </html>

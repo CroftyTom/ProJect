@@ -27,3 +27,7 @@ HTMLTIDY - https://en.wikipedia.org/wiki/HTML_Tidy
 CSSTIDY - https://en.wikipedia.org/wiki/CSSTidy
 VALIDATOR - https://en.wikipedia.org/wiki/CSS_HTML_Validator
 ================================================================
+
+
+
+DIFFIE HELMAN KEY EXCHANGE, FIGURED OUT A FAIR BIT OF THE JS
